@@ -1,0 +1,122 @@
+body {
+    height:100%;
+    width:100%;
+    margin:0;
+}
+
+#bg {
+    position:fixed;
+    left:0px;
+    top:0px;
+    width:100vw;
+    height:100vh;
+    z-index:-1;
+    background-size:cover;
+    background-position:bottom;
+}
+
+#menu {
+    padding:5px;
+    background-color:indianred;
+    width:100px;
+    height:80px;
+    padding:5px;
+    top:50px;
+    left:-110px;
+    position: fixed;
+}
+    
+
+
+#makeBG {
+    width:100%;
+}
+
+#reset {
+    width:100%;
+}
+
+#hideApp {
+    width:100%;
+}
+
+#showApp {
+    width:100%;
+}
+
+#openB {
+    position:absolute;
+    right:-50px;
+    width:50px;
+    top:0px;
+}
+
+#closeB {
+    position:absolute;
+    right:-50px;
+    width:50px;
+    bottom:0px;
+}
+
+/** app1 **/
+-------------------------------------------
+
+#app1 {
+    position:fixed;
+    width:70vw;
+    height:70vh;
+    margin:0 auto;
+    top:0;
+    right:0;
+    bottom:0;
+    left:0;    
+}
+
+#zoom {
+    position:relative;
+    width:100vw;
+    height:70vh;
+    background-size:cover;
+    background-position:center;
+    background-repeat: no-repeat;
+    margin-bottom:10px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+#zoomControls {
+    position:absolute;
+    right:0px;
+    top:0px;
+    width:75px;
+    display:none;
+}
+
+#plus {
+    width:100%;
+}
+
+#minus {
+    width:100%;
+}
+
+#controls {
+    text-align:center;
+}
+
+.bgthumbs {
+    display:inline-block;
+    width:75px;
+    height:75px;
+    margin:5px;
+    border-radius:100px;
+    border-style: solid;
+    border-color: red;
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:center;
+}
+
+
+/** app1 **/
+-------------------------------------------
